@@ -1,0 +1,89 @@
+
+header {
+
+    display: flex;
+    align-items: center;
+    background-color:var(--white-color);
+    width: 100%;
+    /* box-shadow: rgba(191, 191, 215, 0.25) 0px 13px 27px -5px, rgba(33, 28, 28, 0.7) 0px 8px 16px -8px; */
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+
+}
+
+
+.nav-logo {
+    margin-top: 5px;
+    padding-left: 15px;
+  
+}
+
+.logo {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.logo img {
+    width: var(--logo-width);
+    height: auto;
+}
+
+.icon-box {  
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    display: none;  
+}
+
+.active {
+    width: 190px !important;
+    position: absolute;
+    background-color: white;
+    color: black;
+    border: 1px solid #D4D4D4;
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 2px;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1.1px;
+}
+
+
+/* how to increase size of react icon? */
+
+
+.nav-items>li {
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+.nav-items>li>.links {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fff;
+    height: 5px;
+} 
+
+
+.nav-items>li>.links:hover {
+    color: #00b800;
+
+}
